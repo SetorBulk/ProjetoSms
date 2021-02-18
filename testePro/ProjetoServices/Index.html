@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="foto-logo">
+    </div>
+  <div class="container-pai-forms">
+
+    <div class="container-form1">
+        <form onsubmit="enviarSms();return false;">
+         <h1>Sms Short Code</h1>
+        <input type="tel" id="txtTelForm1" required placeholder="Número Do Contato">
+        <input class="btn-msg btn-efeito" type="submit" value="ENVIAR">
+
+        </form>
+    </div>
+    <div class="container-form2">
+
+        <form onsubmit="enviarSms()">
+        <h1>Sms Flash</h1>
+        <input type="tel" id="txtTelForm2" required placeholder="Número Do Contato">
+        <input class="btn-msg btn-efeito" type="submit"  value="ENVIAR">
+
+        </form>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/function.js"></script>
+</body>
+</html>

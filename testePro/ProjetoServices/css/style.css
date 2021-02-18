@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: silver;
+    box-sizing: border-box;
+
+}
+.foto-logo{
+    background-image: url(../robo-AIO-grupo-Services-e1536103159505.jpeg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.container-pai-forms{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-form1{
+    height: 200px;
+    width: 250px;
+}
+.container-form2{
+height: 200px;
+width: 250px;
+}
+.container-form1 form{
+    
+    display: flex; 
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    border-radius: 10%;
+    border: solid purple 2px;
+}
+
+.container-form2 form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: solid purple 2px;
+    border-radius: 10%;
+
+
+}
+input{
+    height: 20px;
+    margin-top: 10px;
+    border: solid 1px;
+
+}
+.btn-msg{
+    border-radius: 10px;
+}
+.btn-efeito:hover{
+    font-size: 11px;
+    font-weight: bolder;
+}
